@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 0.95rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+header nav{
+    text-align: start;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff7641;
+}
+
+header nav .logo{
+    width: 3rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 0.1rem;
+    padding: 0.3rem;
+    border-radius: 5%;
+}
+
+header nav a:hover{
+    background-color: #3a3737;
+    color: #efefef;
+    transition: 1s;
+}
+
+.page{
+    background-color: #3a3737;
+    border-radius: 5%;
+    color: #efefef;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+body{
+    background-color: #fdfcce;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* INDEX */
+
+.index-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.index-main .girl{
+    width: 80%;
+    margin: 2rem;
+    box-shadow: -5px 5px 10px 1px black;
+}
+
+.index-main .container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.index-main .container .plant{
+    box-shadow: -5px 5px 10px 1px black;
+    width: 36rem;
+    height: 36rem;
+}
+
+.button{
+    display: none;
+}
+
+/* ABOUT US */
+
+.about-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-main .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.about-main .container img{
+    width: 34rem;
+    margin-right: 5rem;
+    box-shadow: -5px 5px 10px 1px black;
+}
+
+.about-main .container p{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+/* CONTACT */
+
+.contact-main img{
+    margin: 2rem;
+    width: 75rem;
+    height: 40rem;
+    box-shadow: -5px 5px 10px 1px black;
+}
+
+.contact-footer .map{
+    display: none;
+}
+
+.contact-footer ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem;
+}
+
+.contact-footer ul li{
+    font-size: 1.3rem;
+}
+
+.contact-footer ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* SERVICES */
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+caption{
+    text-align: start;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    width: 9rem;
+    height: 5rem;
+    padding: 0 .5rem;
+    background-color: rgb(235, 235, 235);
+}
+
+th{
+    font-size: 1.3rem;
+}
+
+.row td{
+    background-color: #dddddd;
+}
+
+/* COURSES */
+
+.courses-main{
+    margin: 2rem auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 2rem auto;
+}
+
+.list img{
+    box-shadow: -5px 5px 10px 1px black;
+    width: 45%;
+}
+
+.list ul, .list>ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 45%;
+}
+
+.li-head{
+    list-style-type: none;
+}
+
+.li-head h2{
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.li-head ul{
+    list-style-type: disc;
+    margin-bottom: .6rem;
+    width: 100%;
+    list-style-position: inside;
+}
+
+.li-head ul li{
+    text-align: start;
+    margin-bottom: .3rem;
+}
+
+.li-head2{
+    margin-left: 1rem;
+}
+
+.li-head2 h2{
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+}
+
+.li-head2 ol{
+    list-style-type: lower-alpha;
+    margin-left: .5rem;
+    margin-bottom: .6rem;
+    list-style-position: inside;
+}
+
+.li-head2 ol li{
+    text-align: start;
+    margin-bottom: .3rem;
+}
